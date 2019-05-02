@@ -12,7 +12,7 @@ do
 
 	cd "$directory" && git pull gigalixir master && 
 		git commit --allow-empty -m "deploy" && 
-		`git push gigalixir master`
+		git push gigalixir master
 
 	gigalixir logout
 
